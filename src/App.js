@@ -1,14 +1,16 @@
 import React, {useState} from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+import {BrowserRouter, Route, Path} from 'react-router-dom'
+// Components
+import About from './components/About/About'
 function App() {
 
   const [state,setState] = useState(0)
   return (
-    <div className="App">
-      
-    </div>
+   <BrowserRouter>
+      <Route exact path="/about" component={About} />
+   </BrowserRouter>
   );
 }
 
