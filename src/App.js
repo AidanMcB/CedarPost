@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import logo from './logo.svg';
 import './App.css';
 import {BrowserRouter, Route, Path} from 'react-router-dom'
 // Components
