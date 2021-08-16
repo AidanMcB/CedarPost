@@ -1,0 +1,21 @@
+.top-bar-container{
+    align-items: center;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    height: 30px;
+    .top-bar-item{
+        flex-grow: 1;
+        text-align: center;
+        height: 30px;
+        line-height: 30px;
+        &:hover{
+            color: white;
+            cursor: pointer;
+            background-color: #AD310B;
+            -webkit-transition: background-color 1000ms linear;
+            -ms-transition: background-color 1000ms linear;
+            transition: background-color 1000ms linear;
+        }
+    }
+}

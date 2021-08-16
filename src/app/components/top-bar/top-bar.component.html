@@ -1,0 +1,7 @@
+<div class="top-bar-container">
+    <div *ngFor="let item of topBarItems" class="top-bar-item">
+        <div class="nav-item"
+            [routerLink]="item.path"
+        >{{item.name}}</div>
+    </div>
+</div>

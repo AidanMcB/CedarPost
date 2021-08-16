@@ -1,0 +1,27 @@
+[
+    {
+      "title": "Cedar Post Farm Marekt",
+      "imagePath": "../../../assets/home-page-carousel/wide-angle-stand.png",
+      "alt": "the cedar post street view"
+    },
+    {
+      "title": "Produce",
+      "imagePath": "../../../assets/home-page-carousel/produce-veggie1.jpeg",
+      "alt": "veggies for sale by the pound"
+    },
+    {
+      "title": "Hot Houses",
+      "imagePath": "../../../assets/home-page-carousel/hot-house2.jpeg",
+      "alt": "annual hot house"
+    },
+    {
+      "title": "New Jersey Corn",
+      "imagePath": "../../../assets/home-page-carousel/corn1.jpeg",
+      "alt": "new jersey corn"
+    },
+    {
+      "title": "Pumpkins",
+      "imagePath": "../../../assets/home-page-carousel/pumpkins1.jpeg",
+      "alt": "box of pumpkins"
+    }
+]

@@ -1,0 +1,20 @@
+
+<div class="carousel">
+    <ng-container *ngFor="let card of cards let i = index" class="carousel-card">
+        <!-- <p *ngIf="i === currentCard" class="card-title">{{card.title}}</p> -->
+        <img *ngIf="i === currentCard"
+            [class]="allowHoverScale ? 'carousel-image hvr' : 'carousel-image'"
+            [src]="card.imagePath" 
+            [alt]="card.alt"
+            @carouselAnimation>
+    </ng-container> 
+
+
+    <!-- buttons -->
+    <button class="btn left-btn" (click)="onPreviousClick()">
+        <span class="arrow left"></span>
+    </button>
+    <button class="btn right-btn" (click)="onNextClick()">
+        <span class="arrow right"></span>
+    </button>
+</div>
